@@ -1,0 +1,88 @@
+.short_news{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+        h1{
+            margin-bottom: 40px;
+        }
+        .second_title{
+            
+            margin-top: 5px;
+            border-top: 4px solid black;
+        }
+        .items{
+            width: 100%;
+            padding-top: 40px;
+            display: flex;
+            overflow: hidden;
+            // transform: translateX(10%);
+            align-items: center;
+            justify-content: center;
+                 .item_media_video_carusel{
+                    display: flex;
+                    overflow: hidden;
+                    align-items: center;
+                    justify-content: center;
+                    transform: translateX(0%);
+                    width: 100%;
+                    transition: 0.4s;
+                 }
+                .item_media_carusel_video_block{
+                    margin-right: 15px;
+                    // background-color: red;
+                        img{
+                            width: 100%;
+                            width: 320px;
+                            height: 200px;
+                        }
+                        .item_media_carusel_video_title{
+                            background-color: #f6f6f6f6;
+                            text-align: start;
+                            padding-top: 25px;
+                            padding-right: 0;
+                            padding-bottom: 30px;
+                                h4{
+                                    font-size: 16px;
+                                }
+                            padding-left: 20px;
+                        }
+                }
+        }
+        .item_media_rows_container{
+            position: absolute;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                .item_media_btn_left{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: #000000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                        .bi-arrow-left{
+                            font-size: 2rem;
+                            color: #fff;
+                        }
+                }
+                .item_media_btn_right{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: #000000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                        .bi-arrow-right{
+                            font-size: 2rem;
+                            color: #fff;
+                        }
+                }
+        }
+}
